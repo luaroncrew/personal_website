@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+.experiences {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+}
+
+.header {
+  margin-top: 20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+
+}
+
+.content {
+  background-color: #eeeeee;
+}
+
+.links {
+  display: flex;
+}
+
+.profile {
+  height: 300px;
+}
+
+.photo-box {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #24292e;
+  height: 300px;
+  width: 300px;
+}
+
+
+.profile {
+  display: flex;
+}
