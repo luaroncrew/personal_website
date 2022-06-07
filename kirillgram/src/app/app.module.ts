@@ -8,7 +8,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { SharedElementsComponent } from './shared-elements/shared-elements.component';
 import { HeaderComponent } from './shared-elements/header/header.component';
-import { FooterComponent } from './shared-elements/footer/footer.component'
+import { FooterComponent } from './shared-elements/footer/footer.component';
+import { OneExperienceComponent } from './experiences/one-experience/one-experience.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './shared-elements/footer/footer.component'
     ExperiencesComponent,
     SharedElementsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    OneExperienceComponent
   ],
   imports: [
     BrowserModule,

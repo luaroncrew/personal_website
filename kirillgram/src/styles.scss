@@ -1,22 +1,3 @@
-@font-face {
-  font-family: "Instagram";
-  src: url("./FontsFree-Net-Billabong.ttf") format('truetype');
-}
-
-body {
-  margin: 0;
-}
-
-.header {
-  padding-top: 30px;
-  padding-right: 230px;
-  padding-left: 200px;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-}
-
 .profile {
   padding-top: 20px;
   height: 200px;
@@ -89,20 +70,13 @@ body {
 
 
 
-.logo {
-  font-size: xx-large;
-  font-family: Instagram, serif;
-}
-
 
 
 .content {
   background-color: whitesmoke;
 }
 
-.links {
-  display: flex;
-}
+
 
 .photo-box {
   border-style: solid;

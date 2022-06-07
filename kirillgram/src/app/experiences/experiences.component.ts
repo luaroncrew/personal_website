@@ -1,4 +1,6 @@
+// TODO: reading experience description from text files or database
 import { Component, OnInit } from '@angular/core';
+
 
 export interface Experience {
   description: string;
@@ -7,6 +9,7 @@ export interface Experience {
 }
 
 const EXPERIENCES: Experience []  = [
+  // adding the experiences manually
   {
     description: 'fasdkhfjgasdkjhgfasd',
     date: 'when',
