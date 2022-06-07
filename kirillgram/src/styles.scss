@@ -118,7 +118,6 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -127,12 +126,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-
 
 .fa-instagram,
 .fa-linkedin,

@@ -4,11 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
+import { ExperiencesComponent } from './experiences/experiences.component';
+import { SharedElementsComponent } from './shared-elements/shared-elements.component';
+import { HeaderComponent } from './shared-elements/header/header.component';
+import { FooterComponent } from './shared-elements/footer/footer.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExperiencesComponent,
+    SharedElementsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
