@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Instagram";
+  src: url("FontsFree-Net-Billabong.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  padding-top: 30px;
+  padding-right: 230px;
+  padding-left: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.logo {
+  font-size: xx-large;
+  font-family: Instagram, serif;
+}
+
+.links {
+  display: flex;
+}
+
 .profile {
   padding-top: 20px;
   height: 200px;
@@ -51,8 +79,6 @@
   }
 }
 
-
-
 .infoline {
   display: flex;
 
@@ -69,23 +95,9 @@
  }
 
 
-
-
-
 .content {
   background-color: whitesmoke;
 }
-
-
-
-.photo-box {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #24292e;
-  height: 300px;
-  width: 300px;
-}
-
 
 
 html, body { height: 100%; }
@@ -138,3 +150,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 }
 
+.one-experience-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-photo-place {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.one-experience-description{
+  width: 30%;
+
+}

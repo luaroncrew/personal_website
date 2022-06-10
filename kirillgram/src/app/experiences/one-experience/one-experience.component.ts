@@ -1,16 +1,11 @@
-//TODO: turn it into a pop-up window
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject} from '@angular/core';
+import {MAT_DIALOG_DATA} from '@angular/material/dialog';
+import {Experience} from "../experiences.component";
 
 @Component({
   selector: 'app-one-experience',
-  templateUrl: './one-experience.component.html',
-  styleUrls: ['./one-experience.component.scss']
+  templateUrl: 'one-experience.component.html',
 })
-export class OneExperienceComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class OneExperienceComponent {
+  constructor(@Inject(MAT_DIALOG_DATA) public experience: Experience) {}
 }

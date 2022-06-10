@@ -1,0 +1,26 @@
+.photo-box {
+  height: 301px;
+  width: 301px;
+  transition: 0.15s ease-out;
+  position: relative;
+  top: 0;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.one-experience-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-photo-place {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.one-experience-description{
+  width: 30%;
+
+}

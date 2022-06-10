@@ -1,7 +1,7 @@
 <div class="experiences">
   <ng-container *ngFor="let experience of experiences">
-      <div class="photo-box">
-        {{experience.description}}
-      </div>
+    <button mat-icon-button (click)="openDialog(experience)" class="photo-box">
+      <img src="{{experience.imageLink}}" class="photo-box" alt="here">
+    </button>
   </ng-container>
 </div>
