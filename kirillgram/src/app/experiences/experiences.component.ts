@@ -3,7 +3,7 @@
 // TODO:
 import { Component } from '@angular/core';
 import { MatDialog } from "@angular/material/dialog";
-import {OneExperienceComponent} from "./one-experience/one-experience.component";
+import { OneExperienceComponent } from "./one-experience/one-experience.component";
 
 export interface Experience {
   description: string;

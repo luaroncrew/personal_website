@@ -9,6 +9,13 @@ import { ExperiencesComponent } from './experiences/experiences.component';
 import { MatButtonModule } from "@angular/material/button";
 import { OneExperienceComponent } from "./experiences/one-experience/one-experience.component";
 import {MatDialogModule} from "@angular/material/dialog";
+import { MarkdownModule } from 'ngx-markdown';
+
+import 'prismjs';
+import 'prismjs/components/prism-typescript.min.js';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.js';
+import 'prismjs/plugins/line-highlight/prism-line-highlight.js';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +29,8 @@ import {MatDialogModule} from "@angular/material/dialog";
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
