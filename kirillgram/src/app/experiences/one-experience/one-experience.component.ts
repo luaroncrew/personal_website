@@ -8,7 +8,6 @@ import {MarkdownService} from 'ngx-markdown'
   templateUrl: 'one-experience.component.html',
 })
 export class OneExperienceComponent {
-
   constructor(@Inject(MAT_DIALOG_DATA) public experience: Experience,
               private markdownService: MarkdownService) {}
   ngOnInit() {

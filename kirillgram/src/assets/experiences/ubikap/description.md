@@ -183,7 +183,7 @@ to test it on different devices and in different environments
 As a result, every invitee has something like this (depending on his device) attached to
 his invitation to participate in a general meeting
 
-![](../ubikap/Screenshot%202022-05-27%20165803.png)
+![](./assets/experiences/ubikap/ics.png)
 
 ## Major changes in the database, default governances
 
@@ -221,8 +221,8 @@ I started by creating a schema of new entities
 and their relationships for the database. This
 conception part took me almost a week to do. 
 Here are the schemas of this part of the database before and after:
-![](database_before.png) 
-![](database_after.png)
+![](./assets/experiences/ubikap/database_before.png)
+![](./assets/experiences/ubikap/database_after.png)
 
 
 
