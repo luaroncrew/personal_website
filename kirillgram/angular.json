@@ -34,7 +34,8 @@
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
-            "scripts": ["./node_modules/jquery/dist/jquery.min.js"]
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js",
+              "node_modules/marked/marked.min.js"]
           },
           "configurations": {
             "production": {
@@ -103,7 +104,8 @@
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
-            "scripts": ["./node_modules/jquery/dist/jquery.min.js"]
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js",
+              "node_modules/marked/marked.min.js"]
           }
         }
       }

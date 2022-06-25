@@ -33,8 +33,6 @@ body {
   border-top-style: solid;
   border-top-color: lightgray;
   border-top-width: 1px;
-  padding-right: 230px;
-  padding-left: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: dense;
@@ -85,17 +83,19 @@ body {
 }
 
 .experiences {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto;
   padding-top: 50px;
-  max-width: 1000px;
-   padding-left: 200px;
-  padding-right: 170px;
-   display: grid;
-   grid-template-columns: auto auto auto;
-   grid-gap: 50px;
+  align-items: center;
+  grid-gap: 50px;
  }
 
 
 .content {
+  align-items: center;
+  padding-right: 250px;
+  padding-left: 220px;
   background-color: whitesmoke;
 }
 

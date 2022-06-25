@@ -1,14 +1,6 @@
-<h1 mat-dialog-title> {{experience.description}}</h1>
 <div mat-dialog-content class="mat-typography">
   <div class="one-experience-content">
-    <div class="experience-photo-place">
-    <img src="../{{experience.imageLink}}" alt="dfskj" style="max-width: 700px; max-height: 700px">
-    </div>
-    <div class="one-experience-description">
-      angular@{{ angularVersion }} | ngx-markdown@{{ ngxMarkdownVersion }}
-      <markdown class="variable-binding" [data]="markdown"></markdown>
-    </div>
+    <markdown [data]="experience.descriptionPath"></markdown>
   </div>
-
 </div>
 
