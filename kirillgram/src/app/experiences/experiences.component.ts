@@ -12,22 +12,27 @@ const EXPERIENCES: Experience []  = [
   {
     name: 'Ubikap',
     descriptionPath: require('raw-loader!../../assets/experiences/ubikap/description.md').default,
-    mainImagePath: '../assets/experiences/ubikap/logo.png'
+    mainImagePath: '../assets/experiences/ubikap/logo.jpg'
   },
   {
     name: 'Yandex',
     descriptionPath: require('raw-loader!../../assets/experiences/yandex/description.md').default,
-    mainImagePath: '../assets/experiences/yandex/img.png'
+    mainImagePath: '../assets/experiences/yandex/logo.png'
   },
   {
-    name: 'Yandex',
-    descriptionPath: '../assets/experiences/ubikap/logo.png',
-    mainImagePath: '../assets/experiences/yandex/img.png'
+    name: 'Encode x Near Hackathon',
+    descriptionPath: require('raw-loader!../../assets/experiences/near_hack/description.md').default,
+    mainImagePath: '../assets/experiences/near_hack/logo.png'
   },
   {
-    name: 'Yandex',
-    descriptionPath: '../assets/experiences/ubikap/logo.png',
-    mainImagePath: '../assets/experiences/yandex/img.png'
+    name: 'Fireman Museum DA',
+    descriptionPath: require('raw-loader!../../assets/experiences/fireman/description.md').default,
+    mainImagePath: '../assets/experiences/fireman/logo.png'
+  },
+  {
+    name: 'Far Away Swap',
+    descriptionPath: require('raw-loader!../../assets/experiences/far_away/description.md').default,
+    mainImagePath: '../assets/experiences/far_away/logo.png'
   }
 ];
 

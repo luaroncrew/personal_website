@@ -250,5 +250,5 @@ that I was “thinking in Python” but had to “think in JavaScript”. That c
 appreciate these words. He was absolutely right. After my good experience with synchronous
 Python (it is possible to write async code with Python, but It’s not the most powerful language
 to do that), I was conservative and unimaginative about new concepts in programming. Well,
-that took me two days to write and almost one week to debug the code and review it. Some of
+that took me two days to write and almost one week to debug the code and review it.
 

@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@aws-amplify/ui-angular": "^2.4.12",
+    "aws-amplify": "^4.3.26",
     "bootstrap": "^5.2.0-beta1",
     "ngx-bootstrap": "^8.0.0"
   }

@@ -1,21 +1,2 @@
-# Yandex | assessor developer
+# Yandex | assessor developer (contract July 2021- March 2022)
 
-## What I had to do
-
-sadklfj
-sadfa'pdsjgfdf
-gd
-sfg
-dsfg
-
-
-dsfgsdfgsdf
-
-
- - dsgdf
- - dfdfg
-   -fdsf 
-   - dsfgsdf
-
-
-#
